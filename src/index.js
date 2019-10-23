@@ -12,6 +12,6 @@ import './styles.scss';
 const rootElement = document.getElementById('root');
 ReactDOM.render(
 // connects app to store through the Provider
-    <Provider store={store}>
+    <Provider>
         <App />
     </Provider>, rootElement);
